@@ -1,7 +1,8 @@
 // Write your code in this file!
-const currentUser = 'DNA' ;
-const welcomeMessage = 'Welcome to Flatbook, DNA!' ;
+const currentUser = 'Deka Ali' ;
+const welcomeMessage = `Welcome to Flatbook, ${currentUser}!` ;
 
-const excitedWelcomeMessage ='WELCOME TO FLATBOOK, DNA!';
-const shortGreeting = 'Welcome, D!';
+const excitedWelcomeMessage =welcomeMessage.toUpperCase();
+const shortGreeting = `Welcome, ${currentUser.slice(0, 1)}!`
 
+console.log((shortGreeting))
